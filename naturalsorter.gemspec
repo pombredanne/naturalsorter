@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["reiz", "versioneye"]
   s.email       = ["reiz@versioneye.com"]
   s.homepage    = "https://github.com/versioneye/naturalsorter"
+  s.license     = 'MIT'
   s.summary     = %q{Sorting arrays in natural order}
   s.description = %q{This GEM is sorting Arrays in a natural order. a2 < a10. Beside that this GEM has some methods to sort version strings. It even recognises alpha, beta, RC, dev and stable versions.}
 
@@ -21,5 +22,5 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
-  s.add_development_dependency "rspec", "2.13.0"
+  s.add_development_dependency "rspec", "2.14.1"
 end
